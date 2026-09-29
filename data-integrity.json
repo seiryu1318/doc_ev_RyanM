@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "major-fit-public-integrity-v1",
+  "version": "18",
+  "platform": "mobile",
+  "route": "/",
+  "admissionAudit": {
+    "version": "18",
+    "validationMode": "FAIL_CLOSED_CACHE_ONLY",
+    "numericAdmissionReleaseReady": false,
+    "releaseReady": true,
+    "recommendationStatus": "BLOCKED",
+    "status": "UNAVAILABLE_CANONICAL",
+    "upstream": {
+      "upstreamLock": {
+        "name": "upstream-bundle-lock.json",
+        "bytes": 1551,
+        "sha256": "41c298ed6d8e6e8961e76450f8d91e89dc3b83cf54db32c89cf43dad8ed7289f"
+      },
+      "sourceCacheManifest": {
+        "name": "haneye-required-source-cache-v01.json",
+        "bytes": 4805,
+        "sha256": "38f479314b723ba70a1eb80506794e0509f1fabdf44b4d7587392a03071b2c37"
+      },
+      "majorResultsFolderPolicy": {
+        "name": "major-results-folder-policy.json",
+        "bytes": 3702,
+        "sha256": "63019765351d2cbf96c17f374c6529663afb64279171537ab6f51009e6473454"
+      },
+      "revocations": {
+        "name": "revoked-releases-ver18.json",
+        "bytes": 1165,
+        "sha256": "c0becd97c252069874d89d2061ec1ff2e1214ace81709b831674d6434a110bd7"
+      }
+    },
+    "counts": {
+      "sourceRows": 0,
+      "rawCandidateRows": 0,
+      "candidateRows": 0,
+      "verifiedRows": 0,
+      "verifiedGroups": 0,
+      "quarantinedRows": 0,
+      "conflictFields": 0
+    },
+    "policy": {
+      "academicYear": 2026,
+      "metricKind": "50%컷",
+      "status": "BLOCKED_CANONICAL_UNAVAILABLE",
+      "requiresExactOfficialBinding": true,
+      "fallbackMetricsAllowed": false,
+      "numericAdmissionValuesDisplayed": 0
+    }
+  },
+  "sourceBuild": {
+    "recommendationStatus": "BLOCKED",
+    "converter": {
+      "version": "34",
+      "dataBytes": 19292,
+      "dataSha256": "bb20259fea81aead298528745f4efe18529e481cd4dc43e78d05728ff8a6bd7d",
+      "modelBytes": 14030,
+      "modelSha256": "d842d917f0ea5edefb1c0483dfbef1c1b4a1ea7b05f409610ec86d45bd98ca78",
+      "forwardGridChecks": 8001,
+      "inverseGridChecks": 4001,
+      "acceptanceTrackChecks": 1371,
+      "acceptanceRowsBytes": 2943,
+      "acceptanceRowsSha256": "1d9f79f424bfb06fefd0d72d415055b1eb0a37c147be7aa337835278e83ed916",
+      "maximumForwardDelta": 0,
+      "maximumInverseDelta": 0
+    },
+    "inputs": {
+      "template": {
+        "bytes": 280891,
+        "sha256": "cbcda167b99f6138e2037e9aceae9fc969eb5d0562e064bf7df2855f2b0de86d"
+      },
+      "background": {
+        "bytes": 1569437,
+        "sha256": "4f9298a699c8ad44f8869e6572f40971ee4c54d7c17a1597cecf6302254dc315"
+      },
+      "ryan": {
+        "bytes": 12449,
+        "sha256": "70da7dc0f4e94442349071898ba5382dd63bbeb8c6e426b61e11dad691f85d2a"
+      },
+      "converterData": {
+        "bytes": 19292,
+        "sha256": "bb20259fea81aead298528745f4efe18529e481cd4dc43e78d05728ff8a6bd7d"
+      },
+      "converterModel": {
+        "bytes": 14030,
+        "sha256": "d842d917f0ea5edefb1c0483dfbef1c1b4a1ea7b05f409610ec86d45bd98ca78"
+      },
+      "university": {
+        "bytes": 456857,
+        "sha256": "b61b4646a2c0c1014e86f323b302ac5aec6e8968ea88482b9e500a579a268483"
+      },
+      "universitySupplement": {
+        "bytes": 12134,
+        "sha256": "8c06950f982491efb45e8296840874501b2a6c6f68457076806135fe05cbb720"
+      },
+      "pdfjs": {
+        "bytes": 377116,
+        "sha256": "978fd1b2d134a98e98966186a97777bebf87d8e770dadab1ece3687e21a5aa6c"
+      },
+      "pdfWorker": {
+        "bytes": 1133660,
+        "sha256": "38cde5311957b86bc3669f93e7d2566de333a90055ed6635bef60d9bf00e96f2"
+      },
+      "buildScript": {
+        "bytes": 28842,
+        "sha256": "e42747305f05b95420bbc05cc805b0b4f2da1533b99204bc5b76c8c1b3278bb5"
+      },
+      "admissionValidator": {
+        "bytes": 118813,
+        "sha256": "15971cfeb8e6915e159a966f7bb5c80ed9647a697181bf7976f5b0d775227c22"
+      },
+      "upstreamLock": {
+        "bytes": 1551,
+        "sha256": "41c298ed6d8e6e8961e76450f8d91e89dc3b83cf54db32c89cf43dad8ed7289f"
+      },
+      "revocations": {
+        "bytes": 1165,
+        "sha256": "c0becd97c252069874d89d2061ec1ff2e1214ace81709b831674d6434a110bd7"
+      },
+      "secondaryCandidatePolicy": {
+        "bytes": 3702,
+        "sha256": "63019765351d2cbf96c17f374c6529663afb64279171537ab6f51009e6473454"
+      },
+      "sourceCacheManifest": {
+        "bytes": 4805,
+        "sha256": "38f479314b723ba70a1eb80506794e0509f1fabdf44b4d7587392a03071b2c37"
+      },
+      "qaScript": {
+        "bytes": 233601,
+        "sha256": "04aba6c2de985a94d4c80112db46f6470a8a85b44c66befc0a2a77f1ab356a43"
+      },
+      "realQaScript": {
+        "bytes": 52176,
+        "sha256": "2608ce67f0cc97efe105577cc2104a9cdce571474f92710936c4ba675bd740b4"
+      },
+      "exportScript": {
+        "bytes": 25193,
+        "sha256": "7755fe7ed60b062e8f5b8b85447bc01c71e4660326a99f128bd799fd6a82d0c9"
+      },
+      "releaseIntegrityScript": {
+        "bytes": 24949,
+        "sha256": "a95ef137928cf71d21c6077945e4e905bf3cf26e6ee84d7d949f5abb0bff2e3f"
+      }
+    },
+    "admissionValidationReceipt": {
+      "schemaVersion": "major-fit-admission-validation-receipt-v3",
+      "mode": "FAIL_CLOSED_CACHE_ONLY",
+      "status": "BLOCKED_CANONICAL_UNAVAILABLE",
+      "validation": {
+        "failClosedSemanticValidation": true,
+        "sourceCacheComplete": true,
+        "liveSourceMetadataOnly": true,
+        "canonicalEligible": 0,
+        "canonicalArtifactsRead": false,
+        "iCloudContentRead": false
+      },
+      "controls": {
+        "admissionValidator": {
+          "bytes": 118813,
+          "sha256": "15971cfeb8e6915e159a966f7bb5c80ed9647a697181bf7976f5b0d775227c22"
+        },
+        "upstreamLock": {
+          "bytes": 1551,
+          "sha256": "41c298ed6d8e6e8961e76450f8d91e89dc3b83cf54db32c89cf43dad8ed7289f"
+        },
+        "revocations": {
+          "bytes": 1165,
+          "sha256": "c0becd97c252069874d89d2061ec1ff2e1214ace81709b831674d6434a110bd7"
+        },
+        "secondaryCandidatePolicy": {
+          "bytes": 3702,
+          "sha256": "63019765351d2cbf96c17f374c6529663afb64279171537ab6f51009e6473454"
+        }
+      },
+      "sourceCache": {
+        "manifest": {
+          "name": "haneye-required-source-cache-v01.json",
+          "bytes": 4805,
+          "sha256": "38f479314b723ba70a1eb80506794e0509f1fabdf44b4d7587392a03071b2c37"
+        },
+        "root": {
+          "name": "haneye-required-source-cache-v01",
+          "blobCount": 15,
+          "bytes": 7282442,
+          "blobBindingSetSha256": "83fb227bee36713328810bfe52df954412f8ed76feec7e6559f70eb66cf3efb6",
+          "verifiedManifestSha256": "ba3d5d2a1cb79af63ee2a535e4e7c0edc5550f59cc017055132bb478dcc159e7",
+          "contentSetSha256": "f9bc63f6c5f183159002a3209b5dd81ed5e38b8ecd1fa31791855c097e7e33de",
+          "contentSetSha256WithoutTrailingDelimiter": "f33da3f84d6495f1d3ab41bc4ffcf55351b46276db3846e8a9bad78c88365538"
+        }
+      },
+      "lock": {
+        "schemaVersion": "major-fit-ver18-upstream-lock-v3",
+        "mode": "FAIL_CLOSED_CACHE_ONLY",
+        "status": "BLOCKED_CANONICAL_UNAVAILABLE",
+        "lockSha256": "41c298ed6d8e6e8961e76450f8d91e89dc3b83cf54db32c89cf43dad8ed7289f"
+      },
+      "admissionAuditSha256": "f851c1ed6611c85b449942afd3b574f3b83d3fcea4e1f4c90fcdaf8fb3393dde",
+      "receiptSha256": "69441e732c31fc15647e5e58d5e830d2db4356fd41feec333f6dc6eebceb3066"
+    }
+  },
+  "publicArtifact": {
+    "bytes": 4693473,
+    "sha256": "d54c21790f49c8833fdd539dcdbb04258ee6088a483143c108faf8c8c68b0480"
+  },
+  "worker": {
+    "bytes": 1133660,
+    "sha256": "38cde5311957b86bc3669f93e7d2566de333a90055ed6635bef60d9bf00e96f2"
+  }
+}
