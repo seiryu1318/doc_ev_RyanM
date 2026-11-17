@@ -1,6 +1,6 @@
 {
   "schemaVersion": "major-fit-public-integrity-v1",
-  "version": "18",
+  "version": "19",
   "platform": "mobile",
   "route": "/",
   "admissionAudit": {
@@ -14,12 +14,12 @@
       "upstreamLock": {
         "name": "upstream-bundle-lock.json",
         "bytes": 1551,
-        "sha256": "41c298ed6d8e6e8961e76450f8d91e89dc3b83cf54db32c89cf43dad8ed7289f"
+        "sha256": "e9b5d29e99c77b80584a49190b9b475d756b46e259f4be2efbe10b183c5b6df1"
       },
       "sourceCacheManifest": {
         "name": "haneye-required-source-cache-v01.json",
-        "bytes": 4805,
-        "sha256": "38f479314b723ba70a1eb80506794e0509f1fabdf44b4d7587392a03071b2c37"
+        "bytes": 6395,
+        "sha256": "41e96d4f6ecedebfb2c0401bff19c70452b009064c2771a2ec6925c9f2cff371"
       },
       "majorResultsFolderPolicy": {
         "name": "major-results-folder-policy.json",
@@ -68,8 +68,8 @@
     },
     "inputs": {
       "template": {
-        "bytes": 280891,
-        "sha256": "cbcda167b99f6138e2037e9aceae9fc969eb5d0562e064bf7df2855f2b0de86d"
+        "bytes": 281199,
+        "sha256": "595f68f46dcc5b84a3d4eb7e0b6d33ca3eff12e1571a8679113cd99e16abda91"
       },
       "background": {
         "bytes": 1569437,
@@ -92,8 +92,8 @@
         "sha256": "b61b4646a2c0c1014e86f323b302ac5aec6e8968ea88482b9e500a579a268483"
       },
       "universitySupplement": {
-        "bytes": 12134,
-        "sha256": "8c06950f982491efb45e8296840874501b2a6c6f68457076806135fe05cbb720"
+        "bytes": 13787,
+        "sha256": "bc5c58a1a9faaae66aa7ca14c12d97f24ebff17f0bdb6c00d9e837aeb3638c85"
       },
       "pdfjs": {
         "bytes": 377116,
@@ -104,16 +104,16 @@
         "sha256": "38cde5311957b86bc3669f93e7d2566de333a90055ed6635bef60d9bf00e96f2"
       },
       "buildScript": {
-        "bytes": 28842,
-        "sha256": "e42747305f05b95420bbc05cc805b0b4f2da1533b99204bc5b76c8c1b3278bb5"
+        "bytes": 29024,
+        "sha256": "6f8ec227599b39d909493e29c4c2f5f158cf1adca94e8322a2fe9c149ee23d96"
       },
       "admissionValidator": {
-        "bytes": 118813,
-        "sha256": "15971cfeb8e6915e159a966f7bb5c80ed9647a697181bf7976f5b0d775227c22"
+        "bytes": 120483,
+        "sha256": "46cbebee830ae7f5d2c77cb4dccfb49d7c7ffb562909126acd83bee92ba9aa6c"
       },
       "upstreamLock": {
         "bytes": 1551,
-        "sha256": "41c298ed6d8e6e8961e76450f8d91e89dc3b83cf54db32c89cf43dad8ed7289f"
+        "sha256": "e9b5d29e99c77b80584a49190b9b475d756b46e259f4be2efbe10b183c5b6df1"
       },
       "revocations": {
         "bytes": 1165,
@@ -124,24 +124,24 @@
         "sha256": "63019765351d2cbf96c17f374c6529663afb64279171537ab6f51009e6473454"
       },
       "sourceCacheManifest": {
-        "bytes": 4805,
-        "sha256": "38f479314b723ba70a1eb80506794e0509f1fabdf44b4d7587392a03071b2c37"
+        "bytes": 6395,
+        "sha256": "41e96d4f6ecedebfb2c0401bff19c70452b009064c2771a2ec6925c9f2cff371"
       },
       "qaScript": {
-        "bytes": 233601,
-        "sha256": "04aba6c2de985a94d4c80112db46f6470a8a85b44c66befc0a2a77f1ab356a43"
+        "bytes": 239383,
+        "sha256": "198d8c37de9fff0e664517d18c0037f4379861ac480be879478073a2a84e6f04"
       },
       "realQaScript": {
-        "bytes": 52176,
-        "sha256": "2608ce67f0cc97efe105577cc2104a9cdce571474f92710936c4ba675bd740b4"
+        "bytes": 53351,
+        "sha256": "bb8f8fbb88d56157855598f52fed74f0b88a090e80736d90b8f02e6b67cf5c35"
       },
       "exportScript": {
-        "bytes": 25193,
-        "sha256": "7755fe7ed60b062e8f5b8b85447bc01c71e4660326a99f128bd799fd6a82d0c9"
+        "bytes": 25301,
+        "sha256": "9782c741ab7359e04e7052eb22c1205c16996d050ef10ba6e14f535cb9edc5ef"
       },
       "releaseIntegrityScript": {
-        "bytes": 24949,
-        "sha256": "a95ef137928cf71d21c6077945e4e905bf3cf26e6ee84d7d949f5abb0bff2e3f"
+        "bytes": 25057,
+        "sha256": "3eda4719fe46bbe067c543a58c84accc870fd85e2366bb039594232902de4836"
       }
     },
     "admissionValidationReceipt": {
@@ -151,19 +151,19 @@
       "validation": {
         "failClosedSemanticValidation": true,
         "sourceCacheComplete": true,
-        "liveSourceMetadataOnly": true,
+        "liveSourceMetadataOnly": false,
         "canonicalEligible": 0,
         "canonicalArtifactsRead": false,
         "iCloudContentRead": false
       },
       "controls": {
         "admissionValidator": {
-          "bytes": 118813,
-          "sha256": "15971cfeb8e6915e159a966f7bb5c80ed9647a697181bf7976f5b0d775227c22"
+          "bytes": 120483,
+          "sha256": "46cbebee830ae7f5d2c77cb4dccfb49d7c7ffb562909126acd83bee92ba9aa6c"
         },
         "upstreamLock": {
           "bytes": 1551,
-          "sha256": "41c298ed6d8e6e8961e76450f8d91e89dc3b83cf54db32c89cf43dad8ed7289f"
+          "sha256": "e9b5d29e99c77b80584a49190b9b475d756b46e259f4be2efbe10b183c5b6df1"
         },
         "revocations": {
           "bytes": 1165,
@@ -177,8 +177,8 @@
       "sourceCache": {
         "manifest": {
           "name": "haneye-required-source-cache-v01.json",
-          "bytes": 4805,
-          "sha256": "38f479314b723ba70a1eb80506794e0509f1fabdf44b4d7587392a03071b2c37"
+          "bytes": 6395,
+          "sha256": "41e96d4f6ecedebfb2c0401bff19c70452b009064c2771a2ec6925c9f2cff371"
         },
         "root": {
           "name": "haneye-required-source-cache-v01",
@@ -194,15 +194,15 @@
         "schemaVersion": "major-fit-ver18-upstream-lock-v3",
         "mode": "FAIL_CLOSED_CACHE_ONLY",
         "status": "BLOCKED_CANONICAL_UNAVAILABLE",
-        "lockSha256": "41c298ed6d8e6e8961e76450f8d91e89dc3b83cf54db32c89cf43dad8ed7289f"
+        "lockSha256": "e9b5d29e99c77b80584a49190b9b475d756b46e259f4be2efbe10b183c5b6df1"
       },
-      "admissionAuditSha256": "f851c1ed6611c85b449942afd3b574f3b83d3fcea4e1f4c90fcdaf8fb3393dde",
-      "receiptSha256": "69441e732c31fc15647e5e58d5e830d2db4356fd41feec333f6dc6eebceb3066"
+      "admissionAuditSha256": "c9c95c571d1e85831fd2a70d98a309d7988361f3607f1188ad6c1cc99e95eb30",
+      "receiptSha256": "f03072e5b3fd269d3a0f2fce2c271b476b16644f6ea1ec6e9eb9c7c73c83bbbe"
     }
   },
   "publicArtifact": {
-    "bytes": 4693473,
-    "sha256": "d54c21790f49c8833fdd539dcdbb04258ee6088a483143c108faf8c8c68b0480"
+    "bytes": 4693742,
+    "sha256": "d4ec6dfb571a655343dfccac46af58a3b46b75216560cdd2b67188bab8be22af"
   },
   "worker": {
     "bytes": 1133660,
